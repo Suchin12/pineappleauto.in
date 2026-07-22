@@ -151,22 +151,34 @@ button:hover{
 
 footer{
     text-align:center;
-    padding:50px 20px;
+    padding:40px 20px;
     background:#020617;
 }
 
-footer a{
-    text-decoration:none;
+.footer-contact{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:35px;
+    margin-bottom:15px;
 }
 
 .contact-link{
     color:white;
-    font-weight:bold;
+    text-decoration:none;
+    font-weight:600;
 }
 
 .whatsapp-link{
     color:#25D366;
-    font-weight:bold;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.footer-text{
+    color:#cbd5e1;
+    font-size:15px;
 }
 
 </style>
@@ -327,43 +339,27 @@ Send Inquiry
 
 <footer>
 
-<p>
-📞
-<a class="contact-link"
-href="tel:+919712210014">
-+91 97122 10014
+<div class="footer-contact">
+
+<a class="contact-link" href="tel:+919712210014">
+📞 +91 97122 10014
 </a>
-</p>
 
-<br>
-
-<p>
-💬
 <a class="whatsapp-link"
 href="https://wa.me/919712210014"
 target="_blank">
-Chat on WhatsApp
+💬 WhatsApp
 </a>
-</p>
 
-<br>
-
-<p>
-📧
 <a class="contact-link"
 href="mailto:info@pineappleauto.in">
-info@pineappleauto.in
+📧 info@pineappleauto.in
 </a>
-</p>
 
-<br>
+</div>
 
-<p>
-🌍 Available Virtually – Globally
-</p>
-
-<p>
-Let's Connect and Explore.
+<p class="footer-text">
+🌍 Available Virtually Worldwide • Let's Connect and Explore
 </p>
 
 </footer>
