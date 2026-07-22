@@ -293,6 +293,8 @@ operational efficiency.
 type="text"
 name="name"
 placeholder="Your Name"
+pattern="[A-Za-z ]{3,50}"
+title="Please enter a valid name"
 required>
 
 <input
@@ -309,7 +311,13 @@ required>
 <input
 type="tel"
 name="phone"
-placeholder="Phone Number">
+placeholder="Mobile Number"
+pattern="^(\+91)?[6-9][0-9]{9}$"
+title="Enter a valid Indian mobile number"
+required>
+<small style="color:#cbd5e1;">
+We will only use your contact details to respond to your inquiry.
+</small>
 
 <select name="service">
 
